@@ -35,7 +35,7 @@ $(function() {
      console.log(loc);
 
    // call to the weather API
-   $.getJSON('http://api.openweathermap.org/data/2.5/weather?units=imperial&lat=' +
+   $.getJSON('https://crossorigin.me/http://api.openweathermap.org/data/2.5/weather?units=imperial&lat=' +
    loc[0] +'&lon=' + loc[1] +'&APPID=' + API_KEY, function(apiData){
      wd = apiData;
 
